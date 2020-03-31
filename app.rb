@@ -3,7 +3,7 @@ require_relative 'models/puppy.rb'
 class App < Sinatra::Base
   
     get '/' do 
-     erb :create_puppy
+     erb :index
     end 
 
 get '/new' do 
